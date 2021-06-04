@@ -32,7 +32,6 @@ class ProductController extends Controller
         $data['category'] = $this->categoryRepository->all();
         return view('product',$data);
     }
-
     //save record
     public function saveProduct(Request $request) {
 
