@@ -14,7 +14,8 @@ class CartController extends Controller
     {
         //$this->middleware('auth');
     }
-
+    
+    //
     public function viewCart() {
 
        return view('cart');
